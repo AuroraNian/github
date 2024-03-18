@@ -10,7 +10,7 @@ public class jizenweiyi {
     //woshitiancainishuoneng
     private static void mover(int arr[][],int m) {
         if (m<0){
-            throw new RuntimeException("不能为负数woshi");
+            throw new RuntimeException("不能为负数");
         }
         for (int i=0;i<3;i++){
             for (int j=2;j>=m;j--){
